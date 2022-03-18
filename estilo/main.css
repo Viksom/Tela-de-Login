@@ -103,3 +103,17 @@ p{
     text-align: justify;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width: 560px){
+    body{
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    .ConteinnerGeral{
+        background-color: rgb(29, 27, 46);
+        border-radius: 10px;
+        background-image: url(/img/img2.png);
+        background-size: cover;
+    }
+}
