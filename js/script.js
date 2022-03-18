@@ -4,7 +4,9 @@ function ConteinnerGeral(){
     const password = document.getElementById("password")
 
 
-    loginButton.addEventListener('click', ()=>{
+    loginButton.addEventListener('click', ( event )=>{
+        
+        event.preventDefault()
         
         let emailValue = email.value
         let passwordValue = password.value
