@@ -1,6 +1,18 @@
 {
-    "user":{
+    "user": [{
         "email": "admin@gmail.com",
         "password": "admin"
-    }
+    },
+    {
+        "email": "jeovaniPaxe@gmail.com",
+        "password": "123"
+    },
+    {
+        "email": "josealberto@gmail.com",
+        "password": "3042"
+    },
+    {
+        "email": "ananiasaugusto@gmail.com",
+        "password": "123"
+    }]
 }
