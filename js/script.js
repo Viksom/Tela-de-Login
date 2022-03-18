@@ -26,7 +26,7 @@ async function peformLogin(){
 
     let result
 
-    return await fetch('/db.json').then(response => response.json()).then(data =>{
+    return await fetch('../db.json').then(response => response.json()).then(data =>{
         return data
     })
 
@@ -38,7 +38,7 @@ function gerenciadorLogin(apiResponse, userInput){
     const userInputEmail = userInput.email
 
     if(userInputEmail === email && userInputPassword===password){
-        window.location.href ='pages/tela2.html'
+        window.location.href ='../pages/tela2.html'
     }
     else{
         alert("Usuário não existe")
