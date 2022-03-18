@@ -86,6 +86,17 @@ button{
 .btnInput .btnLogin:hover{
     background-color: rgb(15, 132, 199);
 }
+.btnRefresh{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: -45px;
+    margin-left: 285px;
+}
+.btnRefresh img{
+    width: 90%;
+    border-radius: 50px;
+}
 h1{
     margin: 15px 0;
 }
@@ -104,7 +115,126 @@ p{
     margin-bottom: 10px;
 }
 
+
+/*Screen de 360px*/
 @media screen and (max-width: 360px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(29, 27, 46);
+        width: 100%;
+    }
+    .ConteinnerGeral{
+        background-color: none;
+        border-radius: 10px;
+        width: 100%;
+        margin: 0;
+        height: 100%;
+ 
+    }
+    .conteinnerInside{
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .navBar{
+        display: flex;
+        align-items: center;
+        padding-top: 20px;
+        list-style: none;
+    }
+    button{
+        background-color: rgb(5, 149, 233);
+        height: 25px;
+        width: 25px;
+        border: none;
+        border-radius: 50px;
+        position: absolute;
+        margin-top: -5px;
+        margin-left: -10px;
+    }
+    .btnRefresh{
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        margin-top: -45px;
+        margin-left: 235px;
+    }
+    .btnRefresh img{
+        width: 90%;
+        border-radius: 50px;
+    }
+    .navBar ul li{
+        margin: 0 10px;
+        display: inline;
+        text-decoration: none;
+    }
+    .conteinnerInside{
+        display: flex;
+    }
+    .conteinnerInside div{
+        width: 20em;
+    }
+    .right{
+        width: 0;
+        display: none;
+    }
+    .left{
+        width: 95%;
+        margin-top: 35%;
+        padding-left: 15px;
+    }
+    .left div input{
+        width: 22em;
+        margin-bottom: 20px;
+        height: 35px;
+        border-radius: 5px;
+        border: 1px solid rgb(67, 65, 87);
+        padding: 5px;
+        background-color: rgb(67, 65, 87);
+    }
+    
+    .btnInput .btnLogin{
+        background-color: rgb(5, 149, 233);
+        font-size: 12pt;
+        width: 19em;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .btnInput .btnLogin:hover{
+        background-color: rgb(15, 132, 199);
+    }
+    h1{
+        margin: 20px 0;
+    }
+    h4{
+        margin: 10px 0;
+        font-weight: 300;
+    }
+    h5{
+        font-weight: 300;
+    }
+    
+    /* Estilo tela2 */
+    
+    p{
+        text-align: justify;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+}
+
+/*screen de 720px*/
+
+@media screen and (max-width: 730px){
     *{
         margin: 0;
         padding: 0;
@@ -204,5 +334,6 @@ p{
     p{
         text-align: justify;
         margin-bottom: 10px;
+        width: 90%;
     }
 }
