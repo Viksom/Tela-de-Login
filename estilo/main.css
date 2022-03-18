@@ -9,7 +9,6 @@
 body{
     align-items: center;
     justify-content: center;
-    display: flex;
     height: 100vh;
 }
 .ConteinnerGeral{
@@ -17,6 +16,7 @@ body{
     border-radius: 10px;
     width: 80%;
     height: 90%;
+    margin: 0 10%;
 }
 .navBar{
     display: flex;
@@ -35,6 +35,7 @@ a{
     display: flex;
     align-items: center;
     margin: 20px;
+    padding-top: 20px;
 }
 
 .navBar ul li{
@@ -52,6 +53,10 @@ a{
 }
 .right{
     width: 50%;
+    background-image: url(../img/img2.png);
+    background-size: cover;
+}
+.right img{
 }
 .left div{
     width: 100%;
@@ -64,6 +69,15 @@ a{
     border: 1px solid;
     padding: 5px;
     background-color: rgb(67, 65, 87);
+}
+.btnInput .btnLogin{
+    background-color: rgb(5, 149, 233);
+    font-size: 12pt;
+    border: none;
+    cursor: pointer;
+}
+.btnInput .btnLogin:hover{
+    background-color: rgb(15, 132, 199);
 }
 h1{
     margin: 15px 0;

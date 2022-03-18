@@ -8,14 +8,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-
-    <title>Login</title>
-</head>
-<body>
-
-=======
->>>>>>> 4a24487b00653cf9ed4235e149fc5794787e0233
     <title>Login-Time</title>
     <link rel="stylesheet" href="/estilo/main.css" />
 </head>
@@ -23,7 +15,7 @@
     <div class="ConteinnerGeral">
         <div class="navBar">
             <ul>
-                <li>Anywhere app</li>
+                <li style="font-weight: bold;">Anywhere app</li>
                 <li>Home</li>
                 <li>Join</li>
             </ul>
@@ -34,21 +26,23 @@
                 <h1>Login</h1>
                 <h6>Não tens uma conta?<a href="createAccount.html">Criar uma</a></h6>
 
-                <div class="emailInput">
-                    <input type="email" class="email" placeholder="exemplo@exemplo.com">
-                </div>
-                <div class="passwordInput">
-                    <input type="password" class="password" placeholder="A sua password">
-                </div>
+                <form method="get" action="">
+                    <div class="emailInput">
+                    <input type="email" class="email" placeholder="exemplo@exemplo.com" id="email">
+                    </div>
+                    <div class="passwordInput">
+                    <input type="password" class="password" placeholder="A sua password" id="password">
+                    </div>
 
-                <div class="btnInput">
-                    <input type="submit" value="Login" class="btnLogin">
-                </div>
+                    <div class="btnInput">
+                    <input type="submit" value="Login" class="btnLogin" id="btnInput">
+                    </div>
+                </form>
                 
             </div>
 
             <div class="right">
-                <p>Olá</p>
+                <img src="/img/img2.png" />
             </div>
         </div>
     </div>
