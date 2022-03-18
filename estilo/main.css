@@ -68,7 +68,7 @@ button{
 .left div input{
     width: 80%;
     margin-bottom: 20px;
-    height: 37px;
+    height: 35px;
     border-radius: 5px;
     border: 1px solid rgb(67, 65, 87);
     padding: 5px;
@@ -78,6 +78,7 @@ button{
 .btnInput .btnLogin{
     background-color: rgb(5, 149, 233);
     font-size: 12pt;
+    width: 83%;
     border: none;
     cursor: pointer;
     border-radius: 20px;
