@@ -2,4 +2,55 @@
 *{
     margin: 0;
     padding: 0;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 500px;
+    height: 100vh;
+}
+.ConteinnerGeral{
+    background-color: rgb(29, 27, 46);
+}
+.navBar{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.navBar ul{
+    display: inline-block;
+}
+.navBar ul li{
+    list-style: none;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBar ul li{
+    margin: 0 15px;
+    display: inline;
+    text-decoration: none;
+    cursor: pointer;
+}
+.conteinnerInside{
+    display: flex;
+    margin: 50px 100px;
+}
+.conteinnerInside div{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.left input{
+    width: 80%;
 }
