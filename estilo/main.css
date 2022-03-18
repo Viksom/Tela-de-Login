@@ -17,6 +17,8 @@ body{
     width: 80%;
     height: 90%;
     margin: 0 10%;
+    background-image: url(/img/img2.png);
+    background-size: cover;
 }
 .navBar{
     display: flex;
@@ -24,20 +26,24 @@ body{
 a{
     text-decoration: none;
 }
-.navBar ul{
-    display: inline-block;
-}
-.navBar ul li{
-    list-style: none;
-}
 
 .navBar{
     display: flex;
     align-items: center;
     margin: 20px;
     padding-top: 20px;
+    list-style: none;
 }
-
+button{
+    background-color: rgb(5, 149, 233);
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -5px;
+    margin-right: 20px;
+}
 .navBar ul li{
     margin: 0 15px;
     display: inline;
@@ -52,29 +58,29 @@ a{
     width: 50%;
 }
 .right{
-    width: 50%;
-    background-image: url(../img/img2.png);
-    background-size: cover;
-}
-.right img{
+    margin-top: -150px;
 }
 .left div{
     width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .left div input{
     width: 80%;
     margin-bottom: 20px;
-    height: 35px;
+    height: 40px;
     border-radius: 5px;
-    border: 1px solid;
+    border: 1px solid rgb(67, 65, 87);
     padding: 5px;
     background-color: rgb(67, 65, 87);
 }
+
 .btnInput .btnLogin{
     background-color: rgb(5, 149, 233);
     font-size: 12pt;
     border: none;
     cursor: pointer;
+    border-radius: 20px;
 }
 .btnInput .btnLogin:hover{
     background-color: rgb(15, 132, 199);
@@ -82,6 +88,10 @@ a{
 h1{
     margin: 15px 0;
 }
-h6{
-    margin: 5px 0;
+h4{
+    margin: 10px 0;
+    font-weight: 300;
+}
+h5{
+    font-weight: 300;
 }
