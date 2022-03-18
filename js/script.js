@@ -51,7 +51,7 @@ function gerenciadorLogin(apiResponse, userInput){
         window.location.href ='../pages/tela2.html'
     }
     else{
-        alert("Usuário não existe")
+        window.alert("Usuário não existe")
     }
 }
 window.onload = ConteinnerGeral
