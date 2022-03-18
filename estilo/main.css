@@ -10,11 +10,13 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
-    width: 500px;
     height: 100vh;
 }
 .ConteinnerGeral{
     background-color: rgb(29, 27, 46);
+    border-radius: 10px;
+    width: 80%;
+    height: 90%;
 }
 .navBar{
     display: flex;
@@ -32,7 +34,7 @@ a{
 .navBar{
     display: flex;
     align-items: center;
-    justify-content: center;
+    margin: 20px;
 }
 
 .navBar ul li{
@@ -43,7 +45,7 @@ a{
 }
 .conteinnerInside{
     display: flex;
-    margin: 50px 100px;
+    margin: 150px 100px;
 }
 .conteinnerInside div{
     width: 50%;
@@ -51,6 +53,21 @@ a{
 .right{
     width: 50%;
 }
-.left input{
+.left div{
+    width: 100%;
+}
+.left div input{
     width: 80%;
+    margin-bottom: 20px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 5px;
+    background-color: rgb(67, 65, 87);
+}
+h1{
+    margin: 15px 0;
+}
+h6{
+    margin: 5px 0;
 }
