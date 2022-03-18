@@ -1,11 +1,7 @@
 function ConteinnerGeral(){
-    // const loginButton = document.getElementById("LoginButtom")
-    // const email = document.getElementById("email")
-    // const password = document.getElementById("password")
-
-    const loginButton = document.querySelector(".btnLogin")
-    const email = document.querySelector(".email")
-    const password = document.querySelector(".password")
+    const loginButton = document.getElementById("btnLogin")
+    const email = document.getElementById("email")
+    const password = document.getElementById("password")
 
 
     loginButton.addEventListener('click', ()=>{
