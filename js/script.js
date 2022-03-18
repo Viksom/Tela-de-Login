@@ -42,7 +42,7 @@ function gerenciadorLogin(apiResponse, userInput){
     const userInputEmail = userInput.email
 
     if(userInputEmail === email && userInputPassword===password){
-        window.location.href ='/pages/tela2.html'
+        window.location.href ='pages/tela2.html'
     }
     else{
         alert("Usuário não existe")
