@@ -1,5 +1,9 @@
 const baseURL = "https://catfact.ninja"
 
+function refreshPage(){
+    main()
+}
+
 async function getRequest(endPoint){
     return await fetch(`${baseURL}/${endPoint}`).then( response => response.json()).then( response => {
         return response.fact
